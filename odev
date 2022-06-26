@@ -1,0 +1,43 @@
+#soru 1
+ad = input("Öğrencinin Adı : ")
+birinci = int(input("İlk sınav notu : "))
+ikinci = int(input("İkinci sınav notu : "))
+ort = (birinci+ikinci)/2
+print(f"Öğrencinin Adı : {ad}\n Sınav Ortalaması : {ort}")
+
+
+#soru 2
+r = int(input("Çap : "))
+pi = 3.14
+alan = pi*r*r
+cevre = 2*pi*r
+print("Daire alanı: ", alan)
+print("Daire Çevresi: ", cevre)
+
+
+#soru 3
+url = "https://teknolojiaihl.meb.k12.tr/"
+print("Karakter uzunluğu: ", len(url))
+
+#soru 4
+okul  = "Teknoloji Anadolu İmam Hatip Lisesi"
+okul=okul.replace("I","İ")
+print(okul.upper())
+
+#soru 5
+print(okul.find('A'))
+
+#soru 6
+print(okul.isalpha())
+
+#soru 7
+print(okul.isdigit())
+
+#soru 8
+print(okul.startswith('T'))
+
+#soru 9
+print(okul.endswith('e'))
+
+#soru 10
+print(okul.replace("t","e"))
